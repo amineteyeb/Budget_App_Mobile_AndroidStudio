@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmain"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity.mainActivity">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/applogo3"
+        />
+
+
+    <Button
+        android:id="@+id/buttonNavigatetoGestionBudget"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4dp"
+        android:text="Gestion Budget" />
+
+
+
+    <Button
+        android:id="@+id/buttonCategorie"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:text="Gestion Categorie"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4dp" />
+    <Button
+        android:id="@+id/buttonNavigatetoStats"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:text="Gestion Objectifs/Statistiques"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4dp" />
+    <Button
+        android:id="@+id/buttonFacture"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:text="Gestion Factures"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4dp" />
+
+    <Button
+        android:id="@+id/buttonCompte"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4dp"
+        android:text="Mon Compte" />
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="46dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="0dp">
+    </FrameLayout>
+
+</LinearLayout>
